@@ -1,8 +1,4 @@
-plugins {
-    id 'com.android.library'
-    id 'maven-publish'
-}
-
+apply plugin: 'com.android.library'
 android {
     compileSdkVersion 33
     defaultConfig {
@@ -10,9 +6,6 @@ android {
         targetSdkVersion 33
         versionCode 1
         versionName "1.0"
-
-        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-
     }
     buildTypes {
         release {
@@ -21,15 +14,7 @@ android {
         }
     }
 }
-allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
-}
-
 dependencies {
-
-    api 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
 }
 
