@@ -1,6 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/358460b4479a4068939da1cc3e72f44d)](https://app.codacy.com/app/akshay2211/MusicWave?utm_source=github.com&utm_medium=referral&utm_content=akshay2211/MusicWave&utm_campaign=Badge_Grade_Dashboard)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-MusicWave-green.svg?style=flat-square)](https://android-arsenal.com/details/1/5699)
-[![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat-square)](https://android-arsenal.com/api?level=9)
+[![](https://jitpack.io/v/LouisP79/MusicWave.svg)](https://jitpack.io/#LouisP79/MusicWave)
 
 # MusicWave
 With MusicWave represent your Sound in a gradient colored Visualization
@@ -35,27 +33,21 @@ For single color wave
 ```
 Refer Sample App for detailed description of usage
 
-Download
---------
-
- [ ![Download](https://api.bintray.com/packages/fxn769/android_projects/Oblique/images/download.svg) ](https://bintray.com/fxn769/android_projects/MusicWave/_latestVersion)  or grab via Gradle:
+Add it in your root build.gradle at the end of repositories:
 ```groovy
-compile 'com.fxn769:musicwave:1.0'
+allprojects {
+ repositories {
+  ...
+  maven { url 'https://jitpack.io' }
+ }
+}
 ```
-or Maven:
-```xml
-<dependency>
-  <groupId>com.fxn769</groupId>
-  <artifactId>musicwave</artifactId>
-  <version>1.0</version>
-  <type>pom</type>
-</dependency>
-```
-or ivy:
-```xml
-<dependency org='com.fxn769' name='musicwave' rev='1.0'>
-  <artifact name='musicwave' ext='pom' ></artifact>
-</dependency>
+
+Add the dependency
+```groovy
+dependencies {
+ implementation 'com.github.LouisP79:MusicWave:1.5'
+}
 ```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
