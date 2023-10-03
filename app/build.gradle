@@ -1,10 +1,13 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 32
+    if (project.android.hasProperty("namespace")) {
+        namespace("ak.sh.ay.samplemusicwave")
+    }
+    compileSdkVersion 33
     defaultConfig {
         applicationId "ak.sh.ay.samplemusicwave"
         minSdkVersion 24
-        targetSdkVersion 32
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
     }
