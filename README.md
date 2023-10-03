@@ -46,7 +46,7 @@ allprojects {
 Add the dependency
 ```groovy
 dependencies {
- implementation 'com.github.LouisP79:MusicWave:1.11'
+ implementation 'com.github.LouisP79:MusicWave:1.12'
 }
 ```
 
