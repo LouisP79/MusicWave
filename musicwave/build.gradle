@@ -1,5 +1,7 @@
-apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
 android {
     if (project.android.hasProperty("namespace")) {
         namespace("ak.sh.ay.musicwave")
@@ -20,5 +22,18 @@ android {
 }
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.LouisP79'
+                artifactId = 'MusicWave'
+                version = '1.21'
+            }
+        }
+    }
 }
 
