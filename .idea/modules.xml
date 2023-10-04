@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicWave-master.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicWave-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave-master.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.main.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave-master.musicwave.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MusicWave.iml" filepath="$PROJECT_DIR$/.idea/modules/MusicWave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MusicWave.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MusicWave.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.main.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/musicwave/MusicWave.musicwave.unitTest.iml" />
     </modules>
   </component>
 </project>
