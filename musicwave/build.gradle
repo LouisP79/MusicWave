@@ -37,7 +37,7 @@ afterEvaluate {
         publications {
             // Creates a Maven publication called "release".
             release(MavenPublication) {
-                from components.release
+                //from components.release
                 groupId = 'com.fxn769'
                 artifactId = 'musicwave'
                 version = '1.0'
