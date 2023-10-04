@@ -6,10 +6,10 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace("ak.sh.ay.musicwave")
     }
-    compileSdkVersion 34
+    compileSdkVersion 33
     defaultConfig {
         minSdkVersion 24
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
     }
@@ -29,7 +29,7 @@ allprojects {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
 }
 
 afterEvaluate {
